@@ -3,7 +3,7 @@ name: Website Uptime Monitor
 on:
   schedule:
     - cron: '*/30 * * * *'  # every 30 minutes
-  workflow_dispatch:       # manual trigger
+  workflow_dispatch:       # allow manual trigger
 
 jobs:
   check-website:
